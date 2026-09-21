@@ -1,0 +1,6 @@
+numpy
+scipy
+openai
+python-dotenv
+langgraph
+chromadb
