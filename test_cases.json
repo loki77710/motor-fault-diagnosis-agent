@@ -1,0 +1,22 @@
+[
+    {"id": 1, "user_input": "3号电机振动大，跟转速差不多，温度高了5度", "device_id": "Motor_03", "signal_fault": "unbalance", "expected_top1": "转子不平衡", "expected_top3": ["转子不平衡", "对中不良", "气隙偏心"]},
+    {"id": 2, "user_input": "5号电机振动大，轴向振动也大，温度正常，2倍频突出", "device_id": "Motor_05", "signal_fault": "misalignment", "expected_top1": "对中不良", "expected_top3": ["对中不良", "气隙偏心", "转子不平衡"]},
+    {"id": 3, "user_input": "2号电机有咔哒声，高频冲击，振动方向明显", "device_id": "Motor_02", "signal_fault": "looseness", "expected_top1": "机械松动", "expected_top3": ["机械松动", "对中不良", "转子不平衡"]},
+    {"id": 4, "user_input": "4号电机电流波动，负载时振动加剧，跟转速同步", "device_id": "Motor_04", "signal_fault": "broken_bar", "expected_top1": "转子断条", "expected_top3": ["转子断条", "电压不平衡", "气隙偏心"]},
+    {"id": 5, "user_input": "6号电机振动频率是转速的两倍", "device_id": "Motor_06", "signal_fault": "eccentricity", "expected_top1": "气隙偏心", "expected_top3": ["气隙偏心", "对中不良", "转子不平衡"]},
+    {"id": 6, "user_input": "7号电机局部温度异常升高，电流谐波大", "device_id": "Motor_07", "signal_fault": "stator_fault", "expected_top1": "定子绕组匝间短路", "expected_top3": ["定子绕组匝间短路", "定子绕组绝缘老化", "电压不平衡"]},
+    {"id": 7, "user_input": "8号电机三相电流不平衡，温升明显", "device_id": "Motor_08", "signal_fault": "voltage_unbalance", "expected_top1": "电压不平衡", "expected_top3": ["电压不平衡", "定子绕组匝间短路", "转子断条"]},
+    {"id": 8, "user_input": "1号电机一切正常，例行检查", "device_id": "Motor_01", "signal_fault": "normal", "expected_top1": "正常", "expected_top3": ["正常"]},
+    {"id": 9, "user_input": "电机振动不大，但温度比平时高10度，电流谐波大", "device_id": "Motor_09", "signal_fault": "stator_fault", "expected_top1": "定子绕组匝间短路", "expected_top3": ["定子绕组匝间短路", "电压不平衡", "定子绕组绝缘老化"]},
+    {"id": 10, "user_input": "电机嗡嗡响，转速不太稳定，电流波动", "device_id": "Motor_10", "signal_fault": "broken_bar", "expected_top1": "转子断条", "expected_top3": ["转子断条", "电压不平衡", "气隙偏心"]},
+    {"id": 11, "user_input": "振动方向性很强，有明显冲击声，高频", "device_id": "Motor_11", "signal_fault": "looseness", "expected_top1": "机械松动", "expected_top3": ["机械松动", "对中不良", "转子不平衡"]},
+    {"id": 12, "user_input": "电机振动跟转速同步，径向为主", "device_id": "Motor_12", "signal_fault": "unbalance", "expected_top1": "转子不平衡", "expected_top3": ["转子不平衡", "对中不良", "气隙偏心"]},
+    {"id": 13, "user_input": "轴向振动明显，2倍频突出", "device_id": "Motor_13", "signal_fault": "misalignment", "expected_top1": "对中不良", "expected_top3": ["对中不良", "气隙偏心", "机械松动"]},
+    {"id": 14, "user_input": "电流有2sf边带，负载越大振动越明显，跟转速同步", "device_id": "Motor_14", "signal_fault": "broken_bar", "expected_top1": "转子断条", "expected_top3": ["转子断条", "电压不平衡", "气隙偏心"]},
+    {"id": 15, "user_input": "振动频率是转速的两倍，伴随电流边带", "device_id": "Motor_15", "signal_fault": "eccentricity", "expected_top1": "气隙偏心", "expected_top3": ["气隙偏心", "对中不良", "转子断条"]},
+    {"id": 16, "user_input": "绝缘电阻下降，温升持续偏高，电流谐波大", "device_id": "Motor_16", "signal_fault": "stator_fault", "expected_top1": "定子绕组绝缘老化", "expected_top3": ["定子绕组绝缘老化", "定子绕组匝间短路", "电压不平衡"]},
+    {"id": 17, "user_input": "三相电流偏差超过5%，温升明显", "device_id": "Motor_17", "signal_fault": "voltage_unbalance", "expected_top1": "电压不平衡", "expected_top3": ["电压不平衡", "定子绕组匝间短路", "转子断条"]},
+    {"id": 18, "user_input": "电机高频段能量高，出现3倍频、4倍频，有冲击", "device_id": "Motor_18", "signal_fault": "looseness", "expected_top1": "机械松动", "expected_top3": ["机械松动", "对中不良", "气隙偏心"]},
+    {"id": 19, "user_input": "1倍频和2倍频都不突出，但温度异常升高，电流谐波大", "device_id": "Motor_19", "signal_fault": "stator_fault", "expected_top1": "定子绕组匝间短路", "expected_top3": ["定子绕组匝间短路", "电压不平衡", "定子绕组绝缘老化"]},
+    {"id": 20, "user_input": "振动不明显，但三相电流谐波异常", "device_id": "Motor_20", "signal_fault": "voltage_unbalance", "expected_top1": "电压不平衡", "expected_top3": ["电压不平衡", "转子断条", "定子绕组匝间短路"]}
+  ]
